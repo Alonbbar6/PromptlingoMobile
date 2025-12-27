@@ -1,0 +1,362 @@
+{
+  "app": {
+    "title": "PromptLingo",
+    "subtitle": "Speech-to-Speech Translation & Text-to-Speech"
+  },
+  "landing": {
+    "trustIndicator": "Trusted by Students, Nurses, and Professionals in 40+ Countries",
+    "hero": {
+      "headline": "Communicate with the Authority You Deserve. Instantly.",
+      "solution": "Stop letting language barriers mask your competence. PromptLingo instantly refines your ideas into flawless, professional English for your essays, emails, and patient notes, so you can focus on your career.",
+      "beforeLabel": "BEFORE (Your Input)",
+      "beforeExample": "I need write email to professor about the assignment I no understand good...",
+      "afterLabel": "AFTER (PromptLingo Output)",
+      "afterExample": "Dear Professor Smith, I am writing to request clarification regarding the assignment requirements. I want to ensure I fully understand the expectations before proceeding."
+    },
+    "cta": {
+      "primary": "Start Your 7-Day Free Trial",
+      "secondary": "See the Before & After",
+      "microcopy": "Free 7-Day Trial • $10/Month After • Cancel Anytime • Setup in 2 Minutes"
+    },
+    "painPoints": {
+      "title": "Is Your English Barrier Costing You Your Career and Confidence?",
+      "shame": {
+        "title": "The Shame of Miscommunication",
+        "description": "Your intelligence is hidden by awkward, robotic English that fails to convey your true competence."
+      },
+      "anxiety": {
+        "title": "The Anxiety of Error",
+        "description": "The constant fear of making a critical mistake in a patient note or academic essay that could jeopardize your future."
+      },
+      "exhaustion": {
+        "title": "The Time-Sink Exhaustion",
+        "description": "Hours wasted on manual translation and proofreading, stealing precious time from your family and sleep."
+      }
+    },
+    "solution": {
+      "title": "PromptLingo: The Professional Voice Amplifier That Honors Your Effort",
+      "philosophy": "Unlike generic translators that produce robotic, tone-deaf output, PromptLingo understands the nuance of professional communication.",
+      "investment": "This is an investment in professional authority, not a slow language lesson. You don't have time for grammar drills—you need results now. PromptLingo delivers professional-grade English instantly.",
+      "outcome": "Gain respect and time. Every communication you send will reflect your true competence, freeing you to focus on what matters: your career, your family, your future.",
+      "difference": "Unlike generic translators, PromptLingo uses professional-grade prompts (e.g., \"Rewrite this as a formal nursing note\") to ensure the tone and terminology are always perfect."
+    },
+    "comparison": {
+      "title": "The Old Way vs. PromptLingo",
+      "oldWay": {
+        "title": "The Mental Burden",
+        "steps": "Translate → Edit → Stress → Repeat"
+      },
+      "newWay": {
+        "title": "The PromptLingo Way",
+        "steps": "Input → PromptLingo → Professional Output"
+      }
+    },
+    "whyPromptLingo": {
+      "title": "Why PromptLingo?",
+      "subtitle": "Six core principles that power your success",
+      "authority": {
+        "title": "Authority",
+        "description": "Communicate with the same power and respect as a native speaker"
+      },
+      "clarity": {
+        "title": "Clarity",
+        "description": "Precise, professional, and context-aware language output"
+      },
+      "empowerment": {
+        "title": "Empowerment",
+        "description": "Take control of your academic and professional future"
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Eliminate the fear of critical communication errors"
+      },
+      "efficiency": {
+        "title": "Efficiency",
+        "description": "Save precious time and mental energy"
+      },
+      "warmth": {
+        "title": "Warmth",
+        "description": "Supportive and reassuring, never cold or impersonal"
+      }
+    },
+    "features": {
+      "title": "4 Core Features That Transform Your Communication",
+      "subtitle": "Everything you need to communicate with authority",
+      "contextLibrary": {
+        "title": "Contextual Prompt Library",
+        "description": "Access pre-built, professional prompts for Nursing, Academia, Business, and Immigration forms. Simply select your context and let the AI handle the rest.",
+        "metric": "99% reduction in tone-inappropriate communication"
+      },
+      "authorityOutput": {
+        "title": "Authority-Grade Output",
+        "description": "Our AI is trained on millions of professional documents to deliver output that is grammatically flawless, technically precise, and sounds like a native expert wrote it.",
+        "metric": "Users report a 40% increase in confidence in written communication"
+      },
+      "dualView": {
+        "title": "Dual-View Editor",
+        "description": "See your original thought and the polished English side-by-side. This builds trust and helps you learn professional phrasing quickly, saving time on expensive tutors."
+      },
+      "voiceInput": {
+        "title": "Time-Saver Input (Voice/Text)",
+        "description": "Quickly input your thoughts via voice or text, even in Spanglish. PromptLingo understands your intent and delivers the professional output in seconds, freeing up hours for your family and studies."
+      }
+    }
+  },
+  "translator": {
+    "title": "Language & Tone Settings",
+    "audioRecording": "Audio Recording",
+    "translationResults": "Translation Results",
+    "audioPlayback": "Audio Playback",
+    "startRecording": "Start Recording",
+    "stopRecording": "Stop Recording",
+    "recordingTips": "Recording Tips",
+    "translationTone": "Translation Tone",
+    "toneSelected": "Selected",
+    "tones": {
+      "casual": {
+        "name": "Casual",
+        "description": "Everyday conversation",
+        "prompt": "Use everyday language, contractions welcome, relaxed vocabulary"
+      },
+      "business": {
+        "name": "Business",
+        "description": "Professional contexts",
+        "prompt": "Professional but approachable, industry-appropriate terminology"
+      },
+      "formal": {
+        "name": "Formal",
+        "description": "Respectful, proper grammar",
+        "prompt": "Respectful address, no slang, proper grammatical structures"
+      },
+      "informal": {
+        "name": "Informal",
+        "description": "Very relaxed, friendly",
+        "prompt": "Very relaxed, friendly, conversational style"
+      },
+      "medical": {
+        "name": "Medical",
+        "description": "Healthcare terminology",
+        "prompt": "Use precise medical terminology, clear and professional"
+      }
+    },
+    "tips": {
+      "position": "Position: Hold microphone 6-12 inches from your mouth",
+      "environment": "Environment: Record in a quiet room to reduce background noise",
+      "speech": "Speech: Speak clearly at normal pace (150-180 words/minute)",
+      "volume": "Volume: Watch the audio level bars - they should move when you speak",
+      "duration": "Duration: Keep recordings under 2 minutes for best results",
+      "troubleshooting": "Troubleshooting: If bars don't move, check microphone permissions"
+    },
+    "keyboardShortcuts": "Keyboard: Space to record, Esc to cancel",
+    "showDiagnostics": "Show Diagnostics",
+    "translationDirection": "Translation Direction",
+    "toEnglish": "To English",
+    "fromEnglish": "From English",
+    "toEnglishDesc": "Haitian Creole/Spanish → English",
+    "fromEnglishDesc": "English → Haitian Creole/Spanish",
+    "currentlyTranslating": "Currently translating {source} to {target}",
+    "translationModel": "Translation Model",
+    "freeModel": "Free Model",
+    "premiumModel": "Premium Model",
+    "freeModelDesc": "NLLB + Gemma",
+    "premiumModelDesc": "GPT-4o Mini",
+    "freeTag": "100% Free",
+    "loginRequired": "Login Required",
+    "freeModelInfo": "Using open-source NLLB model with Gemma for tone - completely free, no login required!",
+    "freeTranslations": "Free Translations",
+    "resetsIn": "Resets in {hours} hours",
+    "remaining": "{used} of {total} remaining",
+    "percentUsed": "{percent}% used",
+    "signupPrompt": "Sign up to get 15 translations per month instead of 10 per day!",
+    "recordToStart": "Record audio to get started",
+    "speechWillBe": "Your speech will be transcribed and translated",
+    "audioWillAppear": "Audio will appear here after translation",
+    "translationHistory": "Translation History",
+    "translations": "{count} translations",
+    "show": "Show",
+    "hide": "Hide",
+    "clear": "Clear",
+    "play": "Play",
+    "download": "Download",
+    "settings": "Settings",
+    "placeholder": "Record audio to get started"
+  },
+  "tts": {
+    "title": "Text-to-Speech",
+    "subtitle": "Convert text to natural-sounding speech",
+    "back": "Back",
+    "manualInput": "Manual Input",
+    "fromTranslation": "From Translation",
+    "enterTextToSpeak": "Enter Text to Speak",
+    "sampleTexts": "Sample Texts",
+    "speakTranslationResults": "Speak Translation Results",
+    "original": "Original",
+    "translation": "Translation",
+    "advancedControls": "Advanced TTS Controls",
+    "noTranslationAvailable": "No Translation Available",
+    "recordFirstMessage": "Record and translate some audio first to use this feature.",
+    "goToTranslator": "Go to Translator",
+    "featuresTitle": "Text-to-Speech Features",
+    "supportedLanguages": "Supported Languages",
+    "controls": "Controls",
+    "language": "Language",
+    "textToSpeak": "Text to Speak",
+    "enterTextPlaceholder": "Enter or paste text here...",
+    "characters": "characters",
+    "toneEnhancement": "Tone Enhancement",
+    "settings": "Settings",
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop",
+    "rate": "Rate",
+    "voice": "Voice"
+  },
+  "history": {
+    "title": "Translation History",
+    "count": "{count} translations",
+    "show": "Show",
+    "hide": "Hide",
+    "clear": "Clear",
+    "noTranslations": "No translations yet",
+    "historyMessage": "Your translation history will appear here",
+    "original": "Original:",
+    "translation": "Translation:",
+    "confirmClear": "Are you sure you want to clear all translation history?",
+    "justNow": "Just now",
+    "minutesAgo": "{count}m ago",
+    "hoursAgo": "{count}h ago",
+    "daysAgo": "{count}d ago"
+  },
+  "nav": {
+    "translator": "Translator",
+    "tts": "TTS",
+    "wasm": "WASM",
+    "signIn": "Sign In",
+    "logout": "Logout"
+  },
+  "user": {
+    "upgradePlan": "Upgrade Plan",
+    "redeemCode": "Redeem Code",
+    "logout": "Logout",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Select the plan that fits your needs",
+    "free": {
+      "name": "Free",
+      "features": {
+        "translations": "15 translations per month",
+        "voices": "All voice options",
+        "history": "Translation history",
+        "support": "Standard support"
+      }
+    },
+    "essential": {
+      "name": "Essential",
+      "features": {
+        "translations": "200 translations per month",
+        "voices": "All voice options",
+        "history": "Translation history",
+        "priority": "Priority processing",
+        "support": "Email support"
+      }
+    },
+    "pro": {
+      "name": "Professional",
+      "features": {
+        "translations": "Unlimited translations",
+        "premiumVoices": "Premium AI voices (ElevenLabs)",
+        "advanced": "Advanced features",
+        "support": "Priority support",
+        "templates": "Custom templates"
+      }
+    },
+    "mostPopular": "MOST POPULAR",
+    "currentPlan": "Current Plan",
+    "upgradeTo": "Upgrade to",
+    "perMonth": "month",
+    "perYear": "year",
+    "savings": "17% savings",
+    "securePayment": "All payments are securely processed by Stripe. Cancel anytime."
+  },
+  "promotion": {
+    "title": "Redeem Promotion Code",
+    "description": "Enter your promotion code to unlock unlimited translations for a limited time.",
+    "codeLabel": "Promotion Code",
+    "placeholder": "Enter code",
+    "redeemButton": "Redeem Code",
+    "redeeming": "Redeeming...",
+    "success": "Code Redeemed Successfully!",
+    "activated": "Your promotion has been activated",
+    "expires": "Expires",
+    "errors": {
+      "required": "Please enter a promotion code",
+      "invalid": "Invalid or expired promotion code",
+      "alreadyRedeemed": "You have already redeemed this promotion code",
+      "maxReached": "This promotion code has reached its maximum number of redemptions",
+      "failed": "Failed to redeem promotion code"
+    }
+  },
+  "usage": {
+    "freePlan": "Free Plan",
+    "essentialPlan": "Essential Plan",
+    "proPlan": "Pro Plan",
+    "translations": "translations",
+    "left": "left",
+    "unlimited": "Unlimited translations",
+    "unlimitedDesc": "You're on the Pro plan with unlimited API calls",
+    "resets": "Resets",
+    "limitReached": "You've reached your monthly limit. Upgrade to Pro for unlimited translations!",
+    "lowRemaining": "Only {count} translations remaining this month",
+    "activePromotion": "Active Promotion"
+  },
+  "subscription": {
+    "title": "Subscription Management",
+    "subtitle": "Manage your PromptLingo subscription and billing",
+    "currentPlan": "Current Plan",
+    "active": "Active",
+    "planFeatures": "Plan Features",
+    "subscriptionDetails": "Subscription Details",
+    "started": "Started",
+    "renews": "Renews",
+    "ends": "Ends",
+    "cancelWarning": "Your subscription will be canceled at the end of the billing period.",
+    "promotionCodes": "Promotion Codes",
+    "promotionDesc": "Have a promotion code? Redeem it here for special offers and unlimited access.",
+    "billing": "Billing & Invoices",
+    "billingDesc": "View your billing history, update payment methods, and manage your subscription.",
+    "manageBilling": "Manage Billing",
+    "loading": "Loading...",
+    "upgradeNow": "Upgrade Plan"
+  },
+  "auth": {
+    "signInTitle": "Sign in to PromptLingo",
+    "signInSubtitle": "Create a profile to save your translations",
+    "dataSecure": "Your data is secure and private",
+    "pleaseSignIn": "Please sign in to view your subscription",
+    "sessionExpired": "Your session has expired. Please sign in again to continue.",
+    "authRequired": "Please sign in to use this feature. Sign up for free to get 15 translations per month!"
+  },
+  "errors": {
+    "loadingFailed": "Unable to load subscription",
+    "tryAgain": "Please try again later",
+    "retry": "Retry",
+    "somethingWrong": "Something went wrong"
+  },
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "languages": {
+    "english": "English",
+    "spanish": "Español",
+    "haitianCreole": "Kreyòl Ayisyen"
+  }
+}

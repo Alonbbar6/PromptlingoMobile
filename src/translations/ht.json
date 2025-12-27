@@ -1,0 +1,362 @@
+{
+  "app": {
+    "title": "PromptLingo",
+    "subtitle": "Tradiksyon Vwa-a-Vwa ak Tèks-a-Vwa"
+  },
+  "landing": {
+    "trustIndicator": "Gen Konfyans pa Etidyan, Enfimyè, ak Pwofesyonèl nan plis pase 40 Peyi",
+    "hero": {
+      "headline": "Kominike ak Otorite ou Merite. Imedyatman.",
+      "solution": "Pa kite baryè lang yo kache konpetans ou. PromptLingo rafiné lide ou yo imedyatman nan yon Angle pwofesyonèl san repwòch pou esè ou yo, imèl ou yo, ak nòt pasyan ou yo, pou ou ka konsantre sou karyè ou.",
+      "beforeLabel": "ANVAN (Antre Ou)",
+      "beforeExample": "Mwen bezwen ekri imèl bay pwofesè a sou devwa a ke mwen pa konprann byen...",
+      "afterLabel": "APRE (Rezilta PromptLingo)",
+      "afterExample": "Chè Pwofesè Smith, mwen ap ekri pou mande klarifikasyon konsènan kondisyon travay la. Mwen vle asire mwen ke mwen konprann byen atant yo anvan mwen kontinye."
+    },
+    "cta": {
+      "primary": "Kòmanse Esè Gratis 7 Jou",
+      "secondary": "Gade Anvan ak Apre",
+      "microcopy": "Esè Gratis 7 Jou • $10/Mwa Apre • Anile Nenpòt Lè • Konfigirasyon nan 2 Minit"
+    },
+    "painPoints": {
+      "title": "Èske Baryè Angle Ou Ap Koute Karyè ak Konfyans Ou?",
+      "shame": {
+        "title": "Wont Movèz Kominikasyon",
+        "description": "Entèlijans ou kache pa yon Angle ki mal fèt ak wobotik ki pa ka montre vrè konpetans ou."
+      },
+      "anxiety": {
+        "title": "Enkyetid pou Erè",
+        "description": "Lapè konstan pou fè yon erè kritik nan yon nòt pasyan oswa yon esè akademik ki ka mete avni ou an danje."
+      },
+      "exhaustion": {
+        "title": "Fatig Pèt Tan",
+        "description": "Èdtan gaspiye sou tradiksyon manyèl ak revizyon, vòlè tan presye ou avèk fanmi ou ak dòmi ou."
+      }
+    },
+    "solution": {
+      "title": "PromptLingo: Anplifikatè Vwa Pwofesyonèl ki Onore Efò Ou",
+      "philosophy": "Kontrernan tradiktè jenerik ki pwodui rezilta wobotik ak san santiman, PromptLingo konprann nwans kominikasyon pwofesyonèl la.",
+      "investment": "Sa a se yon envestisman nan otorite pwofesyonèl, se pa yon leson lang ki long. Ou pa gen tan pou egzèsis gramè—ou bezwen rezilta kounye a. PromptLingo ba ou Angle kalite pwofesyonèl imedyatman.",
+      "outcome": "Jwenn respè ak tan. Chak kominikasyon ou voye ap reflete vrè konpetans ou, libere ou pou ou ka konsantre sou sa ki enpòtan: karyè ou, fanmi ou, avni ou.",
+      "difference": "Kontrernan tradiktè jenerik, PromptLingo itilize pwonp kalite pwofesyonèl (pa egzanp, \"Reekri sa a kòm yon nòt enfimyè fòmèl\") pou asire ton ak tèminoloji yo toujou pafè."
+    },
+    "comparison": {
+      "title": "Ansyen Fason an kont PromptLingo",
+      "oldWay": {
+        "title": "Chaj Mantal la",
+        "steps": "Tradwi → Korije → Estrès → Repete"
+      },
+      "newWay": {
+        "title": "Fason PromptLingo",
+        "steps": "Antre → PromptLingo → Rezilta Pwofesyonèl"
+      }
+    },
+    "whyPromptLingo": {
+      "title": "Poukisa PromptLingo?",
+      "subtitle": "Sis prensip debaz ki bay siksè ou",
+      "authority": {
+        "title": "Otorite",
+        "description": "Kominike ak menm pouvwa ak respè ke yon moun ki pale lang natif natal"
+      },
+      "clarity": {
+        "title": "Klète",
+        "description": "Rezilta lang presi, pwofesyonèl, ak konsyan kontèks"
+      },
+      "empowerment": {
+        "title": "Anpouvoua",
+        "description": "Pran kontwòl avni akademik ak pwofesyonèl ou"
+      },
+      "trust": {
+        "title": "Konfyans",
+        "description": "Elimine lapè erè kominikasyon kritik"
+      },
+      "efficiency": {
+        "title": "Efikasite",
+        "description": "Ekonomize tan presye ak enèji mantal"
+      },
+      "warmth": {
+        "title": "Chalè",
+        "description": "Sipò ak rasyirans, pa janm frèt oswa enpèsonèl"
+      }
+    },
+    "features": {
+      "title": "4 Karakteristik Debaz Ki Transfòme Kominikasyon Ou",
+      "subtitle": "Tout sa ou bezwen pou kominike ak otorite",
+      "contextLibrary": {
+        "title": "Bibliyotèk Pwonp Kontekstyèl",
+        "description": "Jwenn aksè a pwonp pwofesyonèl pre-konstwi pou Enfimyè, Akademi, Biznis, ak fòm Imigrasy​on. Senpleman chwazi kontèks ou epi kite AI a okipe rès la.",
+        "metric": "99% rediksyon nan kominikasyon ak ton ki pa apwopriye"
+      },
+      "authorityOutput": {
+        "title": "Rezilta Nivo Otorite",
+        "description": "AI nou a fòme sou dè milyon dokiman pwofesyonèl pou bay rezilta ki gramatikalman pafè, teknikman presi, epi ki sone tankou yon ekspè natif te ekri li.",
+        "metric": "Itilizatè rapòte yon ogmantasyon 40% nan konfyans nan kominikasyon ekri"
+      },
+      "dualView": {
+        "title": "Editè Vi Doub",
+        "description": "Wè panse orijinal ou ak Angle poli kote a kote. Sa bati konfyans epi ede ou aprann fraz pwofesyonèl rapidman, ekonomize tan sou titè ki koute chè."
+      },
+      "voiceInput": {
+        "title": "Antre Ekonomizè Tan (Vwa/Tèks)",
+        "description": "Rantre panse ou rapidman pa vwa oswa tèks, menm nan Spanglish. PromptLingo konprann entansyon ou epi bay rezilta pwofesyonèl la an kèk segonn, libere èdtan pou fanmi ou ak etid ou."
+      }
+    }
+  },
+  "translator": {
+    "title": "Paramèt Lang ak Ton",
+    "audioRecording": "Anrejistreman Odyo",
+    "translationResults": "Rezilta Tradiksyon",
+    "audioPlayback": "Repwodiksyon Odyo",
+    "startRecording": "Kòmanse Anrejistre",
+    "stopRecording": "Sispann Anrejistre",
+    "recordingTips": "Konsèy pou Anrejistreman",
+    "translationTone": "Ton Tradiksyon",
+    "toneSelected": "Chwazi",
+    "tones": {
+      "casual": {
+        "name": "Regilyè",
+        "description": "Konvèsasyon chak jou",
+        "prompt": "Itilize langaj chak jou, kontraksyon akeyi, vokabilè relaks"
+      },
+      "business": {
+        "name": "Biznis",
+        "description": "Kontèks pwofesyonèl",
+        "prompt": "Pwofesyonèl men aksesib, tèminoloji apwopriye pou endistri a"
+      },
+      "formal": {
+        "name": "Fòmèl",
+        "description": "Respè, gramè kòrèk",
+        "prompt": "Adrès respè, pa gen ajisman, estrikti gramatikal kòrèk"
+      },
+      "informal": {
+        "name": "Enfòmèl",
+        "description": "Trè relaks, zanmitay",
+        "prompt": "Trè relaks, zanmitay, stil konvèsasyonèl"
+      },
+      "medical": {
+        "name": "Medikal",
+        "description": "Tèminoloji sante",
+        "prompt": "Itilize tèminoloji medikal presi, klè e pwofesyonèl"
+      }
+    },
+    "tips": {
+      "position": "Pozisyon: Kenbe mikwofòn 6-12 pous devan bouch ou",
+      "environment": "Anviwònman: Anrejistre nan yon chanm kalm pou diminye bri nan anviwònman",
+      "speech": "Pale: Pale klèman nan yon ritm nòmal (150-180 mo/minit)",
+      "volume": "Volim: Gade ba nivo odyo yo - yo dwe deplase lè w ap pale",
+      "duration": "Dire: Kenbe anrejistreman yo anba 2 minit pou pi bon rezilta",
+      "troubleshooting": "Rezoud pwoblèm: Si ba yo pa deplase, verifye pèmisyon mikwofòn"
+    },
+    "keyboardShortcuts": "Klavye: Espas pou anrejistre, Esc pou anile",
+    "showDiagnostics": "Montre Dyagnostik",
+    "translationDirection": "Direksyon Tradiksyon",
+    "toEnglish": "An Angle",
+    "fromEnglish": "Soti nan Angle",
+    "toEnglishDesc": "Kreyòl Ayisyen/Panyòl → Angle",
+    "fromEnglishDesc": "Angle → Kreyòl Ayisyen/Panyòl",
+    "currentlyTranslating": "Ap tradwi aktyèlman de {source} a {target}",
+    "translationModel": "Modèl Tradiksyon",
+    "freeModel": "Modèl Gratis",
+    "premiumModel": "Modèl Premyèm",
+    "freeModelDesc": "NLLB + Gemma",
+    "premiumModelDesc": "GPT-4o Mini",
+    "freeTag": "100% Gratis",
+    "loginRequired": "Koneksyon Obligatwa",
+    "freeModelInfo": "Itilize modèl NLLB sous louvri ak Gemma pou ton - totalman gratis, pa bezwen koneksyon!",
+    "freeTranslations": "Tradiksyon Gratis",
+    "resetsIn": "Rekomanse nan {hours} èdtan",
+    "remaining": "{used} sou {total} ki rete",
+    "percentUsed": "{percent}% itilize",
+    "signupPrompt": "Enskri pou jwenn 15 tradiksyon pa mwa olye de 10 pa jou!",
+    "recordToStart": "Anrejistre odyo pou kòmanse",
+    "speechWillBe": "Pawòl ou ap transkri epi tradwi",
+    "audioWillAppear": "Odyo ap parèt isit la apre tradiksyon",
+    "translationHistory": "Istorik Tradiksyon",
+    "translations": "{count} tradiksyon",
+    "show": "Montre",
+    "hide": "Kache",
+    "clear": "Efase",
+    "play": "Jwe",
+    "download": "Telechaje",
+    "settings": "Paramèt",
+    "placeholder": "Anrejistre odyo pou kòmanse"
+  },
+  "tts": {
+    "title": "Tèks-a-Vwa",
+    "subtitle": "Konvèti tèks an vwa natirèl",
+    "back": "Retounen",
+    "manualInput": "Antre Manyèl",
+    "fromTranslation": "Soti nan Tradiksyon",
+    "enterTextToSpeak": "Antre Tèks pou Pale",
+    "sampleTexts": "Tèks Egzanp",
+    "speakTranslationResults": "Pale Rezilta Tradiksyon",
+    "original": "Orijinal",
+    "translation": "Tradiksyon",
+    "advancedControls": "Kontwòl Avanse TTS",
+    "noTranslationAvailable": "Pa Gen Tradiksyon Disponib",
+    "recordFirstMessage": "Anrejistre epi tradwi odyo dabò pou itilize fonksyon sa a.",
+    "goToTranslator": "Ale nan Tradiktè",
+    "featuresTitle": "Karakteristik Tèks-a-Vwa",
+    "supportedLanguages": "Lang ki Sipòte",
+    "controls": "Kontwòl",
+    "language": "Lang",
+    "textToSpeak": "Tèks pou Pale",
+    "enterTextPlaceholder": "Antre oswa kole tèks isit la...",
+    "characters": "karaktè",
+    "toneEnhancement": "Amelyorasyon Ton",
+    "settings": "Paramèt",
+    "play": "Jwe",
+    "pause": "Poze",
+    "stop": "Kanpe",
+    "rate": "Vitès",
+    "voice": "Vwa"
+  },
+  "history": {
+    "title": "Istorik Tradiksyon",
+    "count": "{count} tradiksyon",
+    "show": "Montre",
+    "hide": "Kache",
+    "clear": "Efase",
+    "noTranslations": "Poko gen tradiksyon",
+    "historyMessage": "Istorik tradiksyon ou ap parèt isit la",
+    "original": "Orijinal:",
+    "translation": "Tradiksyon:",
+    "confirmClear": "Ou si ou vle efase tout istorik tradiksyon an?",
+    "justNow": "Kounye a",
+    "minutesAgo": "{count}m de sa",
+    "hoursAgo": "{count}h de sa",
+    "daysAgo": "{count}j de sa"
+  },
+  "nav": {
+    "translator": "Tradiktè",
+    "tts": "Tèks-a-Vwa",
+    "wasm": "WASM",
+    "signIn": "Konekte",
+    "logout": "Dekonekte"
+  },
+  "user": {
+    "upgradePlan": "Amelyore Plan",
+    "redeemCode": "Resevre Kòd",
+    "logout": "Dekonekte",
+    "profile": "Pwofil",
+    "settings": "Paramèt"
+  },
+  "pricing": {
+    "title": "Chwazi Plan Ou",
+    "subtitle": "Chwazi plan ki adapte ak bezwen ou",
+    "free": {
+      "name": "Gratis",
+      "features": {
+        "translations": "15 tradiksyon pa mwa",
+        "voices": "Tout opsyon vwa",
+        "history": "Istorik tradiksyon",
+        "support": "Sipò estanda"
+      }
+    },
+    "essential": {
+      "name": "Esansyèl",
+      "features": {
+        "translations": "200 tradiksyon pa mwa",
+        "voices": "Tout opsyon vwa",
+        "history": "Istorik tradiksyon",
+        "priority": "Tretman priyorite",
+        "support": "Sipò pa imèl"
+      }
+    },
+    "pro": {
+      "name": "Pwofesyonèl",
+      "features": {
+        "translations": "Tradiksyon san limit",
+        "premiumVoices": "Vwa AI premyèm (ElevenLabs)",
+        "advanced": "Karakteristik avanse",
+        "support": "Sipò priyorite",
+        "templates": "Modèl pèsonalize"
+      }
+    },
+    "mostPopular": "PI POPILÈ",
+    "currentPlan": "Plan Aktyèl",
+    "upgradeTo": "Amelyore a",
+    "perMonth": "mwa",
+    "perYear": "ane",
+    "savings": "17% ekonomi",
+    "securePayment": "Tout peman yo trete an sekirite pa Stripe. Anile nenpòt lè."
+  },
+  "promotion": {
+    "title": "Resevre Kòd Pwomosyon",
+    "description": "Antre kòd pwomosyon ou pou debouye tradiksyon san limit pou yon tan limite.",
+    "codeLabel": "Kòd Pwomosyon",
+    "placeholder": "Antre kòd",
+    "redeemButton": "Resevre Kòd",
+    "redeeming": "Ap resevre...",
+    "success": "Kòd Resevre Avèk Siksè!",
+    "activated": "Pwomosyon ou aktive",
+    "expires": "Ekspire",
+    "errors": {
+      "required": "Tanpri antre yon kòd pwomosyon",
+      "invalid": "Kòd pwomosyon envalid oswa ekspire",
+      "alreadyRedeemed": "Ou deja resevre kòd pwomosyon sa a",
+      "maxReached": "Kòd pwomosyon sa a rive nan kantite maksimòm resevasyon li",
+      "failed": "Echwe resevre kòd pwomosyon"
+    }
+  },
+  "usage": {
+    "freePlan": "Plan Gratis",
+    "essentialPlan": "Plan Esansyèl",
+    "proPlan": "Plan Pwofesyonèl",
+    "translations": "tradiksyon",
+    "left": "ki rete",
+    "unlimited": "Tradiksyon san limit",
+    "unlimitedDesc": "Ou sou plan Pro ak apèl API san limit",
+    "resets": "Rekomanse",
+    "limitReached": "Ou rive nan limit mansyèl ou. Amelyore a Pro pou tradiksyon san limit!",
+    "lowRemaining": "Sèlman {count} tradiksyon ki rete mwa sa a",
+    "activePromotion": "Pwomosyon Aktif"
+  },
+  "subscription": {
+    "title": "Jesyon Abònman",
+    "subtitle": "Jere abònman ak faktirasyon PromptLingo ou",
+    "currentPlan": "Plan Aktyèl",
+    "active": "Aktif",
+    "planFeatures": "Karakteristik Plan",
+    "subscriptionDetails": "Detay Abònman",
+    "started": "Kòmanse",
+    "renews": "Renouvle",
+    "ends": "Fini",
+    "cancelWarning": "Abònman ou ap anile nan fen peryòd faktirasyon an.",
+    "promotionCodes": "Kòd Pwomosyon",
+    "promotionDesc": "Ou gen yon kòd pwomosyon? Resevre li la a pou òf espesyal ak aksè san limit.",
+    "billing": "Faktirasyon ak Faktir",
+    "billingDesc": "Gade istorik faktirasyon ou, aktyalize metòd peman, epi jere abònman ou.",
+    "manageBilling": "Jere Faktirasyon",
+    "loading": "Ap chaje...",
+    "upgradeNow": "Amelyore Plan"
+  },
+  "auth": {
+    "signInTitle": "Konekte nan PromptLingo",
+    "signInSubtitle": "Kreye yon pwofil pou anrejistre tradiksyon ou yo",
+    "dataSecure": "Done ou yo an sekirite ak prive",
+    "pleaseSignIn": "Tanpri konekte pou wè abònman ou",
+    "sessionExpired": "Sesyon ou ekspire. Tanpri konekte ankò pou kontinye.",
+    "authRequired": "Tanpri konekte pou itilize fonksyon sa a. Enskri gratis pou jwenn 15 tradiksyon pa mwa!"
+  },
+  "errors": {
+    "loadingFailed": "Pa kapab chaje abònman",
+    "tryAgain": "Tanpri eseye ankò pita",
+    "retry": "Eseye ankò",
+    "somethingWrong": "Gen yon bagay ki mal"
+  },
+  "common": {
+    "close": "Fèmen",
+    "cancel": "Anile",
+    "confirm": "Konfime",
+    "save": "Anrejistre",
+    "loading": "Ap chaje...",
+    "error": "Erè",
+    "success": "Siksè"
+  },
+  "languages": {
+    "english": "English",
+    "spanish": "Español",
+    "haitianCreole": "Kreyòl Ayisyen"
+  }
+}
