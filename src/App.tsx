@@ -9,10 +9,11 @@ import MainContent from './components/MainContent';
 import ConversationHistory from './components/ConversationHistory';
 import TextToSpeechPage from './components/TextToSpeechPage';
 import { WasmDemo } from './components/WasmDemo';
+import LiveTranscriptionCaptions from './components/LiveTranscriptionCaptions';
 import SignInPrompt from './components/SignInPrompt';
 import './index.css';
 
-type AppPage = 'translator' | 'tts' | 'wasm';
+type AppPage = 'translator' | 'tts' | 'wasm' | 'live';
 
 const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || '';
 
@@ -66,6 +67,8 @@ const AppContent: React.FC = () => {
           <>
             {currentPage === 'tts' ? (
               <TextToSpeechPage onBack={() => setCurrentPage('translator')} />
+            ) : currentPage === 'live' ? (
+              <LiveTranscriptionCaptions />
             ) : (
               <WasmDemo />
             )}

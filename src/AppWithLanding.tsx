@@ -16,10 +16,11 @@ import CookieConsentBanner from './components/CookieConsentBanner';
 import MainContent from './components/MainContent';
 import ConversationHistory from './components/ConversationHistory';
 import TextToSpeechPage from './components/TextToSpeechPage';
+import LiveTranscriptionCaptions from './components/LiveTranscriptionCaptions';
 import SignInPrompt from './components/SignInPrompt';
 import './index.css';
 
-type AppPage = 'landing' | 'translator' | 'tts' | 'pricing' | 'subscription' | 'privacy' | 'refund-policy' | 'settings';
+type AppPage = 'landing' | 'translator' | 'tts' | 'live' | 'pricing' | 'subscription' | 'privacy' | 'refund-policy' | 'settings';
 
 const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || '';
 
@@ -154,6 +155,10 @@ const AppContent: React.FC = () => {
         <main className="container mx-auto px-4 py-8">
           <TextToSpeechPage onBack={() => handlePageChange('translator')} />
         </main>
+      )}
+
+      {currentPage === 'live' && (
+        <LiveTranscriptionCaptions />
       )}
 
       {/* Cookie Consent Banner - GDPR Compliance */}

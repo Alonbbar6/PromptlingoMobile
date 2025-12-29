@@ -8,8 +8,8 @@ import GoogleLoginButton from './GoogleLoginButton';
 import LanguageSelector from './LanguageSelector';
 
 interface BrandedHeaderProps {
-  currentPage: 'landing' | 'translator' | 'tts' | 'pricing' | 'subscription' | 'privacy' | 'refund-policy' | 'settings';
-  onPageChange: (page: 'landing' | 'translator' | 'tts' | 'pricing' | 'subscription' | 'privacy' | 'refund-policy' | 'settings') => void;
+  currentPage: 'landing' | 'translator' | 'tts' | 'live' | 'pricing' | 'subscription' | 'privacy' | 'refund-policy' | 'settings';
+  onPageChange: (page: 'landing' | 'translator' | 'tts' | 'live' | 'pricing' | 'subscription' | 'privacy' | 'refund-policy' | 'settings') => void;
   showNavigation?: boolean;
 }
 
@@ -71,6 +71,16 @@ export const BrandedHeader: React.FC<BrandedHeaderProps> = ({
                   }`}
                 >
                   Text-to-Speech
+                </button>
+                <button
+                  onClick={() => onPageChange('live')}
+                  className={`text-sm font-medium transition-colors ${
+                    currentPage === 'live'
+                      ? 'text-brand-skyBlue'
+                      : 'text-neutral-textSecondary hover:text-neutral-textPrimary'
+                  }`}
+                >
+                  Live Transcription
                 </button>
                 <button
                   onClick={() => onPageChange('pricing')}
@@ -172,6 +182,19 @@ export const BrandedHeader: React.FC<BrandedHeaderProps> = ({
                 }`}
               >
                 Text-to-Speech
+              </button>
+              <button
+                onClick={() => {
+                  onPageChange('live');
+                  setIsMenuOpen(false);
+                }}
+                className={`text-left px-4 py-2 rounded-lg transition-colors ${
+                  currentPage === 'live'
+                    ? 'bg-brand-skyBlue/10 text-brand-skyBlue'
+                    : 'text-neutral-textSecondary hover:bg-gray-50'
+                }`}
+              >
+                Live Transcription
               </button>
               <button
                 onClick={() => {

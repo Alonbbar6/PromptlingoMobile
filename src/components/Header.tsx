@@ -1,12 +1,12 @@
 import React from 'react';
-import { Mic, Languages, Volume2, Cpu, LogIn } from 'lucide-react';
+import { Mic, Languages, Volume2, Cpu, LogIn, Radio } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import { useLanguage } from '../contexts/LanguageContext';
 import UserProfile from './UserProfile';
 import GoogleLoginButton from './GoogleLoginButton';
 import LanguageSelector from './LanguageSelector';
 
-type AppPage = 'translator' | 'tts' | 'wasm';
+type AppPage = 'translator' | 'tts' | 'wasm' | 'live';
 
 interface HeaderProps {
   currentPage?: AppPage;
@@ -70,6 +70,17 @@ const Header: React.FC<HeaderProps> = ({ currentPage = 'translator', onPageChang
                 >
                   <Volume2 className="h-4 w-4" />
                   <span className="hidden sm:inline">{t('nav.tts')}</span>
+                </button>
+                <button
+                  onClick={() => onPageChange('live')}
+                  className={`flex items-center space-x-2 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                    currentPage === 'live'
+                      ? 'bg-white text-blue-600 shadow-sm'
+                      : 'text-gray-600 hover:text-gray-900'
+                  }`}
+                >
+                  <Radio className="h-4 w-4" />
+                  <span className="hidden sm:inline">Live</span>
                 </button>
                 <button
                   onClick={() => onPageChange('wasm')}
