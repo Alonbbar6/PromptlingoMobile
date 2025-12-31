@@ -1,0 +1,42 @@
+# Netlify configuration for React app deployment
+[build]
+  base = "client"
+  publish = "build"
+  command = "npm install && npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# SPA redirect - serve index.html for all routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "microphone=(self), camera=(self)"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://promptlingo-backend.onrender.com https://*.onrender.com https://accounts.google.com https://oauth2.googleapis.com; media-src 'self' blob: data:;"
+
+# WASM support with correct MIME type and CORS headers
+[[headers]]
+  for = "/*.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Embedder-Policy = "require-corp"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/wasm/*"
+  [headers.values]
+    Cross-Origin-Resource-Policy = "cross-origin"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Embedder-Policy = "require-corp"
