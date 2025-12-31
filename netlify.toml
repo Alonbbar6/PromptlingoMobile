@@ -1,6 +1,5 @@
 # Netlify configuration for React app deployment
 [build]
-  base = "client"
   publish = "build"
   command = "npm install && npm run build"
 
